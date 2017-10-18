@@ -1,0 +1,27 @@
+{
+  "name": "mimi-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^0.50.0",
+    "rollup-plugin-commonjs": "^8.2.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^2.0.0"
+  },
+  "dependencies": {
+    "history": "^4.7.2",
+    "inferno": "^3.10.1",
+    "inferno-hyperscript": "^3.10.1",
+    "inferno-redux": "^3.10.1",
+    "inferno-router": "^3.10.1",
+    "redux": "^3.7.2",
+    "redux-observable": "^0.16.0",
+    "redux-observable-adapter-most": "0.0.2"
+  }
+}
